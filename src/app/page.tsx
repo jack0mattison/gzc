@@ -75,21 +75,9 @@ export default function HomePage() {
                     : "Open navigation"}
               </span>
               <span className="flex h-3.5 w-3.5 flex-col justify-between">
-                <span
-                  className={`block h-[1.5px] w-full rounded-full bg-slate-600 transition-transform duration-200 ease-out ${
-                    mobileNavOpen ? "rotate-45" : ""
-                  }`}
-                />
-                <span
-                  className={`block h-[1.5px] w-full rounded-full bg-slate-600 transition-opacity duration-150 ${
-                    mobileNavOpen ? "opacity-0" : "opacity-100"
-                  }`}
-                />
-                <span
-                  className={`block h-[1.5px] w-full rounded-full bg-slate-600 transition-transform duration-200 ease-out ${
-                    mobileNavOpen ? "-rotate-45" : ""
-                  }`}
-                />
+                <span className="block h-[1.5px] w-full rounded-full bg-slate-600" />
+                <span className="block h-[1.5px] w-full rounded-full bg-slate-600" />
+                <span className="block h-[1.5px] w-full rounded-full bg-slate-600" />
               </span>
             </button>
           </div>
