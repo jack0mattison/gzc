@@ -158,7 +158,7 @@ export const copy: Record<Locale, SiteCopy> = {
         "Soy Guiny Zapata Cornejo, higienista bucodental y protésica dental en formación, con experiencia clínica y de laboratorio en Madrid.",
         "Me apasiona integrar la prevención en salud bucal con soluciones protésicas funcionales y estéticas, acompañando a cada paciente con cercanía y claridad en todo el proceso.",
         "He trabajado como higienista bucodental en Dentyclass y en clínicas especializadas en ortodoncia invisible, así como en Laboratorio Aragoneses, donde he reforzado mis competencias en prótesis fija y removible.",
-        "Actualmente curso el Grado Superior en Prótesis Dental en ILERNA (Madrid) y sigo perfeccionando mi dominio de flujos digitales CAD/CAM y escáneres intraorales."
+        "He completado el Grado Superior en Prótesis Dental en ILERNA (Madrid), consolidando mi dominio de flujos digitales CAD/CAM y escáneres intraorales."
       ]
     },
     education: {
@@ -168,8 +168,7 @@ export const copy: Record<Locale, SiteCopy> = {
           institution: "ILERNA",
           location: "Madrid, España",
           title: "Grado Superior en Prótesis Dental",
-          period: "octubre 2023 – junio 2025 (en curso)",
-          current: true
+          period: "octubre 2023 – junio 2025"
         },
         {
           institution: "Organización Profesional Española (OPESA)",
@@ -376,10 +375,10 @@ export const copy: Record<Locale, SiteCopy> = {
     about: {
       heading: "Professional profile",
       body: [
-        "I am Guiny Zapata Cornejo, a dental hygienist with clinical and laboratory experience and ongoing training in dental prosthetics, based in Madrid.",
+        "I am Guiny Zapata Cornejo, a dental hygienist with clinical and laboratory experience and advanced training in dental prosthetics, based in Madrid.",
         "I enjoy combining preventive oral care, orthodontic support and prosthetic solutions to help patients regain function and confidence in a calm, well‑explained way.",
         "My background includes work as a dental hygienist at Dentyclass and orthodontic clinics focused on clear aligner therapy, as well as prosthetic work at Laboratorio Aragoneses.",
-        "I am currently studying a Higher Degree in Dental Prosthetics at ILERNA (Madrid) while strengthening my skills in digital workflows, CAD/CAM and intraoral scanning."
+        "I recently completed a Higher Degree in Dental Prosthetics at ILERNA (Madrid), consolidating my skills in digital workflows, CAD/CAM and intraoral scanning."
       ]
     },
     education: {
@@ -389,8 +388,7 @@ export const copy: Record<Locale, SiteCopy> = {
           institution: "ILERNA",
           location: "Madrid, Spain",
           title: "Higher Degree in Dental Prosthetics",
-          period: "October 2023 – June 2025 (in progress)",
-          current: true
+          period: "October 2023 – June 2025"
         },
         {
           institution: "Organización Profesional Española (OPESA)",
