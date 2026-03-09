@@ -155,28 +155,35 @@ export const copy: Record<Locale, SiteCopy> = {
     about: {
       heading: "Perfil profesional",
       body: [
-        "Soy Guiny Zapata Cornejo, higienista dental y especialista en prótesis dental peruana, actualmente radicada en Madrid.",
-        "Me apasiona combinar la prevención en salud bucal con soluciones protésicas funcionales y estéticas que devuelvan confianza a cada paciente.",
-        "Mi enfoque es cercano y respetuoso: escucho, explico y acompaño para que ustedes se sientan seguros en cada etapa del tratamiento.",
-        "En este momento continúo perfeccionando mi formación en Dentyclass (Madrid), donde profundizo en técnicas actuales de higiene y prótesis dental."
+        "Soy Guiny Zapata Cornejo, higienista bucodental y protésica dental en formación, con experiencia clínica y de laboratorio en Madrid.",
+        "Me apasiona integrar la prevención en salud bucal con soluciones protésicas funcionales y estéticas, acompañando a cada paciente con cercanía y claridad en todo el proceso.",
+        "He trabajado como higienista bucodental en Dentyclass y en clínicas especializadas en ortodoncia invisible, así como en Laboratorio Aragoneses, donde he reforzado mis competencias en prótesis fija y removible.",
+        "Actualmente curso el Grado Superior en Prótesis Dental en ILERNA (Madrid) y sigo perfeccionando mi dominio de flujos digitales CAD/CAM y escáneres intraorales."
       ]
     },
     education: {
       heading: "Formación académica",
       items: [
         {
-          institution: "Dentyclass",
+          institution: "ILERNA",
           location: "Madrid, España",
-          title: "Programa de Higiene Dental y Prótesis Dental",
-          period: "2023 – 2025 (en curso)",
+          title: "Grado Superior en Prótesis Dental",
+          period: "octubre 2023 – junio 2025 (en curso)",
           current: true
         },
         {
-          institution: "Centro de Formación en Higiene y Prótesis Dental",
+          institution: "Organización Profesional Española (OPESA)",
           location: "Madrid, España",
-          title: "Formación integral en Higiene Bucodental y Prótesis Dental",
-          period: "2020 – 2023",
-          placeholder: true
+          title: "Grado Superior en Higiene Bucodental",
+          period: "octubre 2017 – junio 2019",
+          placeholder: false
+        },
+        {
+          institution: "Stericycle",
+          location: "Madrid, España",
+          title: "Curso de operador de rayos X",
+          period: "noviembre 2022",
+          placeholder: false
         }
       ],
       currentLabel: "En curso"
@@ -185,16 +192,66 @@ export const copy: Record<Locale, SiteCopy> = {
       heading: "Experiencia profesional",
       items: [
         {
-          role: "Higienista Dental – Prácticas clínicas",
-          company: "Clínica docente Dentyclass",
+          role: "Higienista Bucodental",
+          company: "Dentyclass",
           location: "Madrid, España",
-          period: "2023 – Actualidad",
-          placeholder: true,
+          period: "abril 2021 – actualidad",
+          placeholder: false,
           bullets: [
-            "Atención a pacientes en consultas de higiene y mantenimiento periodontal bajo la supervisión del equipo docente.",
-            "Realización de profilaxis, detartrajes y refuerzo de técnicas de higiene oral adaptadas a cada paciente.",
-            "Apoyo en la toma de impresiones, registro de mordida y pruebas relacionadas con casos de prótesis.",
-            "Registro riguroso de la información clínica y comunicación fluida con el equipo multidisciplinario."
+            "Asistencia en gabinete dental en distintos tratamientos odontológicos, incluyendo colocación de implantes, cirugías guiadas, injertos óseos con membranas reabsorbibles y cirugía periodontal a colgajo.",
+            "Realización de técnicas radiológicas y toma de fotografías dentales para planificación y seguimiento de casos.",
+            "Manejo de escáner intraoral iTero y de escáner extraoral 3D, integrando registros digitales en flujos de trabajo CAD‑CAM.",
+            "Eliminación de cálculo y tinciones mediante profilaxis dentales, así como educación continua en higiene oral.",
+            "Apoyo en el área de prótesis dental: vaciados para modelos de estudio, confección de férulas de blanqueamiento y elaboración de retenedores estéticos.",
+            "Elaboración de presupuestos dentales y gestión básica de tratamientos en el software GESDEN."
+          ]
+        },
+        {
+          role: "Protésica dental",
+          company: "Laboratorio Aragoneses",
+          location: "Madrid, España",
+          period: "noviembre 2024 – enero 2025",
+          placeholder: false,
+          bullets: [
+            "Colaboración en la confección de sobredentaduras, prótesis fijas y prótesis removibles de resina y metálicas.",
+            "Pulido, ajuste y acabado de prótesis dentales con enfoque en precisión y confort para el paciente.",
+            "Rotación por distintas áreas del laboratorio: colado, cerámica, acrílicos y CAD‑CAM.",
+            "Asistencia en procesos digitales y en el flujo de trabajo CAD‑CAM."
+          ]
+        },
+        {
+          role: "Higienista Bucodental",
+          company: "Ortodoncia Invisible AC",
+          location: "Madrid, España",
+          period: "febrero 2021 – marzo 2021",
+          placeholder: false,
+          bullets: [
+            "Exposición inicial al flujo completo de ortodoncia invisible en clínica especializada.",
+            "Apoyo en escaneado intraoral, gestión básica de casos y seguimiento del tratamiento."
+          ]
+        },
+        {
+          role: "Auxiliar de Odontología",
+          company: "Clínica Santa María",
+          location: "Madrid, España",
+          period: "octubre 2019 – enero 2020",
+          placeholder: false,
+          bullets: [
+            "Apoyo integral en gabinete a odontólogos en tratamientos restauradores, quirúrgicos y preventivos.",
+            "Preparación de gabinete, instrumental y materiales, siguiendo protocolos de desinfección y esterilización.",
+            "Acompañamiento al paciente antes, durante y después de los procedimientos para favorecer una experiencia segura y tranquila."
+          ]
+        },
+        {
+          role: "Higienista Bucodental",
+          company: "Centro Europeo de Implantología Oral",
+          location: "Madrid, España",
+          period: "marzo 2019 – junio 2019",
+          placeholder: false,
+          bullets: [
+            "Asistencia en tratamientos de implantología oral y cirugías periodontales.",
+            "Realización de profilaxis y refuerzo de técnicas de higiene oral adaptadas a cada paciente.",
+            "Apoyo en la toma de registros, radiografías y fotografías clínicas para el seguimiento de casos complejos."
           ]
         }
       ]
@@ -202,38 +259,35 @@ export const copy: Record<Locale, SiteCopy> = {
     skills: {
       heading: "Habilidades",
       intro:
-        "Combino habilidades clínicas sólidas con un manejo responsable de la tecnología y una comunicación cercana con cada paciente.",
+        "Combino experiencia clínica en higiene bucodental, implantología y ortodoncia invisible con conocimientos en prótesis dental y flujos digitales CAD/CAM.",
       groups: [
         {
           name: "Habilidades clínicas",
           skills: [
-            "Tratamiento periodontal básico y mantenimiento",
-            "Profilaxis dental y detartraje supragingival",
-            "Diseño y seguimiento de planes de higiene oral",
-            "Diseño y apoyo en la fabricación de prótesis",
-            "Toma de impresiones convencionales y digitales",
-            "Radiografías intraorales (según normativa vigente)",
-            "Blanqueamiento dental asistido",
-            "Educación y motivación en salud bucal"
+            "Profilaxis dental, detartraje supragingival y mantenimiento periodontal básico",
+            "Asistencia en implantología oral, cirugías guiadas, injertos óseos y cirugía periodontal",
+            "Manejo asistencial de ortodoncia invisible (escaneos, ataches, seguimiento básico)",
+            "Toma de impresiones, registros fotográficos y radiológicos",
+            "Confección de férulas de blanqueamiento y retenedores estéticos",
+            "Colaboración en confección, ajuste y acabado de prótesis fijas, removibles y sobredentaduras"
           ]
         },
         {
           name: "Herramientas técnicas y software",
           skills: [
-            "Flujo digital CAD/CAM en prótesis",
-            "Escáneres intraorales (nivel asistencial)",
-            "Software de imagenología dental",
-            "Gestión de historias clínicas digitales"
+            "Interpretación de prescripciones clínicas",
+            "Conocimientos básicos de flujo digital CAD/CAM en clínica y laboratorio",
+            "Manejo de escáner intraoral iTero y escáner extraoral 3D",
+            "Uso habitual de software clínico e historial digital de pacientes (incluido GESDEN)"
           ]
         },
         {
           name: "Habilidades personales",
           skills: [
-            "Comunicación clara y empática",
-            "Alto nivel de detalle y prolijidad",
-            "Trabajo en equipo interdisciplinario",
-            "Gestión del tiempo en entorno clínico",
-            "Sensibilidad intercultural con pacientes internacionales"
+            "Alta atención al detalle y precisión en el trabajo manual",
+            "Capacidad de aprendizaje rápido y adaptación a nuevos entornos",
+            "Responsabilidad, organización y trabajo en equipo",
+            "Comunicación clara y respetuosa con pacientes y equipos multidisciplinarios"
           ]
         }
       ]
@@ -242,22 +296,15 @@ export const copy: Record<Locale, SiteCopy> = {
       heading: "Certificaciones y cursos",
       items: [
         {
-          name: "Curso de RCP básica / BLS para personal de salud",
-          issuer: "Entidad / Colegio profesional",
-          year: "Año",
-          placeholder: true
+          name: "Curso de operador de rayos X",
+          issuer: "Stericycle",
+          year: "2022",
+          placeholder: false
         },
         {
-          name: "Certificación en control de infecciones y bioseguridad en clínicas dentales",
-          issuer: "Institución / Universidad",
-          year: "Año",
-          placeholder: true
-        },
-        {
-          name: "Curso de actualización en prótesis dental CAD/CAM",
-          issuer: "Centro de formación continua",
-          year: "Año",
-          placeholder: true
+          name: "Cursos de actualización en blanqueamiento dental, ortodoncia e Invisalign",
+          issuer: "Diversas entidades de formación continua",
+          placeholder: false
         }
       ]
     },
@@ -329,28 +376,35 @@ export const copy: Record<Locale, SiteCopy> = {
     about: {
       heading: "Professional profile",
       body: [
-        "I am Guiny Zapata Cornejo, a Peruvian dental hygienist and dental prosthesis specialist currently based in Madrid.",
-        "I am passionate about combining preventive oral care with functional and aesthetic prosthetic solutions that restore each patient’s confidence.",
-        "My approach is warm and respectful: I listen, explain and guide so that patients feel informed and safe at every stage of treatment.",
-        "I am currently advancing my training at Dentyclass (Madrid), deepening my knowledge of up‑to‑date techniques in dental hygiene and prosthodontics."
+        "I am Guiny Zapata Cornejo, a dental hygienist with clinical and laboratory experience and ongoing training in dental prosthetics, based in Madrid.",
+        "I enjoy combining preventive oral care, orthodontic support and prosthetic solutions to help patients regain function and confidence in a calm, well‑explained way.",
+        "My background includes work as a dental hygienist at Dentyclass and orthodontic clinics focused on clear aligner therapy, as well as prosthetic work at Laboratorio Aragoneses.",
+        "I am currently studying a Higher Degree in Dental Prosthetics at ILERNA (Madrid) while strengthening my skills in digital workflows, CAD/CAM and intraoral scanning."
       ]
     },
     education: {
       heading: "Education",
       items: [
         {
-          institution: "Dentyclass",
+          institution: "ILERNA",
           location: "Madrid, Spain",
-          title: "Dental Hygiene & Dental Prosthesis Programme",
-          period: "2023 – 2025 (in progress)",
+          title: "Higher Degree in Dental Prosthetics",
+          period: "October 2023 – June 2025 (in progress)",
           current: true
         },
         {
-          institution: "Training Centre in Dental Hygiene & Prosthetics",
+          institution: "Organización Profesional Española (OPESA)",
           location: "Madrid, Spain",
-          title: "Comprehensive training in Dental Hygiene and Prosthetics",
-          period: "2020 – 2023",
-          placeholder: true
+          title: "Higher Degree in Dental Hygiene",
+          period: "October 2017 – June 2019",
+          placeholder: false
+        },
+        {
+          institution: "Stericycle",
+          location: "Madrid, Spain",
+          title: "Dental X‑ray Operator Course",
+          period: "November 2022",
+          placeholder: false
         }
       ],
       currentLabel: "In progress"
@@ -359,16 +413,40 @@ export const copy: Record<Locale, SiteCopy> = {
       heading: "Professional experience",
       items: [
         {
-          role: "Dental Hygienist – Clinical internship",
-          company: "Dentyclass Teaching Clinic",
+          role: "Dental Hygienist",
+          company: "Dentyclass",
           location: "Madrid, Spain",
-          period: "2023 – Present",
-          placeholder: true,
+          period: "April 2021 – Present",
+          placeholder: false,
           bullets: [
-            "Cared for patients in hygiene and periodontal maintenance appointments under the supervision of the teaching staff.",
-            "Performed prophylaxis, scaling and tailored oral‑hygiene instruction adapted to each patient.",
-            "Assisted with impressions, bite registration and appointments related to prosthetic cases.",
-            "Documented clinical information accurately and communicated effectively with the multidisciplinary team."
+            "Assisted with general and specialised dental treatments while maintaining high standards of quality and infection control.",
+            "Supported the prosthetics area by pouring models for study casts, fabricating whitening trays and making aesthetic retainers.",
+            "Participated in clear‑aligner orthodontic treatments, helping with intraoral scans, attachment placement and removal, and basic treatment follow‑up.",
+            "Operated an iTero intraoral scanner and managed digital records, as well as photographic and radiographic documentation."
+          ]
+        },
+        {
+          role: "Dental Prosthesis Technician",
+          company: "Laboratorio Aragoneses",
+          location: "Madrid, Spain",
+          period: "November 2024 – January 2025",
+          placeholder: false,
+          bullets: [
+            "Collaborated in the fabrication of overdentures, fixed prostheses and removable resin and metal prostheses.",
+            "Polished, adjusted and finished dental prostheses with a focus on precision and patient comfort.",
+            "Rotated through different areas of the laboratory including casting, ceramics, acrylics and CAD‑CAM.",
+            "Assisted with digital processes and CAD/CAM workflows."
+          ]
+        },
+        {
+          role: "Dental Hygienist",
+          company: "Ortodoncia Invisible AC",
+          location: "Madrid, Spain",
+          period: "February 2021 – March 2021",
+          placeholder: false,
+          bullets: [
+            "Gained initial exposure to the full clinical workflow of clear‑aligner orthodontics in a specialised clinic.",
+            "Assisted with intraoral scanning, basic case management and treatment follow‑up."
           ]
         }
       ]
@@ -376,38 +454,35 @@ export const copy: Record<Locale, SiteCopy> = {
     skills: {
       heading: "Skills",
       intro:
-        "I bring together solid clinical skills, responsible use of technology and a warm, clear communication style with every patient.",
+        "I bring together clinical experience in dental hygiene, implantology and clear‑aligner orthodontics with growing expertise in dental prosthetics and digital workflows.",
       groups: [
         {
           name: "Clinical skills",
           skills: [
-            "Basic periodontal treatment and maintenance",
-            "Dental prophylaxis and supragingival scaling",
-            "Planning and monitoring of oral‑hygiene protocols",
-            "Design and follow‑up of prosthetic cases",
-            "Conventional and digital impressions (assisting level)",
-            "Intraoral radiography (according to local regulations)",
-            "Assisted teeth whitening procedures",
-            "Patient education and motivation in oral health"
+            "Dental prophylaxis, supragingival scaling and basic periodontal maintenance",
+            "Chairside assistance in implant placement, guided surgeries, bone grafts and periodontal flap surgery",
+            "Assisting with clear‑aligner orthodontics (scans, attachments, basic follow‑up)",
+            "Conventional impressions and clinical photography and radiography",
+            "Fabrication of whitening trays and aesthetic retainers",
+            "Collaboration in the fabrication, adjustment and finishing of fixed, removable prostheses and overdentures"
           ]
         },
         {
           name: "Technical / software",
           skills: [
-            "Digital CAD/CAM workflows for prosthetics",
-            "Intraoral scanners (assisting level)",
-            "Dental imaging and viewer software",
-            "Electronic dental records and charting"
+            "Interpretation of clinical prescriptions",
+            "Basic knowledge of digital CAD/CAM workflows in clinic and lab",
+            "Use of iTero intraoral scanner and extraoral 3D scanner",
+            "Good command of clinical software and electronic health records (including GESDEN)"
           ]
         },
         {
           name: "Soft skills",
           skills: [
-            "Clear, empathetic communication",
-            "High attention to clinical detail",
-            "Interdisciplinary teamwork",
-            "Time management in a clinical setting",
-            "Intercultural sensitivity with international patients"
+            "High attention to detail and precision in manual work",
+            "Fast learner with strong adaptability",
+            "Responsible, organised and comfortable working in teams",
+            "Clear, empathetic communication with both patients and colleagues"
           ]
         }
       ]
