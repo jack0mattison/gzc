@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-brand-background text-brand-text font-sans antialiased;
+}
+
+.section-shell {
+  @apply max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card-surface {
+  @apply bg-white/80 backdrop-blur shadow-soft rounded-2xl border border-slate-100;
+}
+
+.pill {
+  @apply inline-flex items-center gap-1.5 rounded-full border border-teal-100 bg-white/80 px-3 py-1 text-xs font-medium text-slate-600 shadow-sm;
+}
+
+.accent-gradient {
+  background: radial-gradient(circle at top left, rgba(13, 148, 136, 0.14), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(13, 148, 136, 0.09), transparent 55%);
+}
+
+.no-print {
+  /* Hidden in print styles below */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@media print {
+  html,
+  body {
+    @apply bg-white text-black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    max-width: none !important;
+    padding: 0.5in 0.7in !important;
+    box-shadow: none !important;
+    background: white !important;
+  }
+
+  section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
+
