@@ -271,9 +271,9 @@ export const copy: Record<Locale, SiteCopy> = {
         },
         {
           name: "Inglés",
-          level: "Intermedio (B1–B2)",
-          note: "Capacidad para comunicarme con pacientes internacionales en un contexto clínico.",
-          badge: "B1–B2"
+          level: "Avanzado (B2–C1)",
+          note: "Capacidad sólida para comunicarme con pacientes internacionales en un contexto clínico y académico.",
+          badge: "B2–C1"
         }
       ]
     },
@@ -445,9 +445,9 @@ export const copy: Record<Locale, SiteCopy> = {
         },
         {
           name: "English",
-          level: "Intermediate (B1–B2)",
-          note: "Comfortable communicating with international patients in a clinical setting.",
-          badge: "B1–B2"
+          level: "Advanced (B2–C1)",
+          note: "Confident communicating with international patients in both clinical and academic settings.",
+          badge: "B2–C1"
         }
       ]
     },
