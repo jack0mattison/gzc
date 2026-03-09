@@ -14,7 +14,7 @@ export function Hero({ hero }: Props) {
   return (
     <header
       id="hero"
-      className="section-shell no-print pt-20 pb-12 sm:pt-24 sm:pb-16 lg:pt-24 lg:pb-18"
+      className="section-shell no-print pt-14 pb-10 sm:pt-20 sm:pb-14 lg:pt-24 lg:pb-18"
     >
       <div className="card-surface relative overflow-hidden px-6 py-8 sm:px-10 sm:py-10 lg:px-12 lg:py-12">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-brand-accent/6 via-transparent to-brand-accent/10" />

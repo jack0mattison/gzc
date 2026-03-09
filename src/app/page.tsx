@@ -117,7 +117,7 @@ export default function HomePage() {
         ) : null}
       </header>
 
-      <main className="mx-auto max-w-6xl pb-16 pt-3 sm:pt-5 lg:pb-20">
+      <main className="mx-auto max-w-6xl pb-16 pt-0 sm:pt-4 lg:pb-20">
         <Hero hero={content.hero} />
         <About about={content.about} />
         <Education education={content.education} />
