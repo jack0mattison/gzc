@@ -31,11 +31,11 @@ export function Experience({ experience }: Props) {
                 {item.period}
               </p>
             </div>
-            <ul className="mt-3 list-disc space-y-1.5 pl-4 text-xs leading-relaxed text-slate-700 sm:text-[0.84rem]">
+            <div className="mt-3 space-y-1.5 text-xs leading-relaxed text-slate-700 sm:text-[0.84rem]">
               {item.bullets.map((point, idx) => (
-                <li key={idx}>{point}</li>
+                <p key={idx}>{point}</p>
               ))}
-            </ul>
+            </div>
           </article>
         ))}
       </div>
