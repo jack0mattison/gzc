@@ -31,12 +31,9 @@ export function Experience({ experience }: Props) {
                 {item.period}
               </p>
             </div>
-            <ul className="mt-3 space-y-1.5 text-xs leading-relaxed text-slate-700 sm:text-[0.84rem]">
+            <ul className="mt-3 list-disc space-y-1.5 pl-4 text-xs leading-relaxed text-slate-700 sm:text-[0.84rem]">
               {item.bullets.map((point, idx) => (
-                <li key={idx} className="flex gap-2">
-                  <span className="mt-1 h-1.5 w-1.5 rounded-full bg-brand-accent/70" />
-                  <span>{point}</span>
-                </li>
+                <li key={idx}>{point}</li>
               ))}
             </ul>
           </article>

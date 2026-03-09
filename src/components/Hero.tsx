@@ -14,17 +14,19 @@ export function Hero({ hero }: Props) {
   return (
     <header
       id="hero"
-      className="section-shell no-print pt-14 pb-10 sm:pt-20 sm:pb-14 lg:pt-24 lg:pb-18"
+      className="section-shell no-print pt-10 pb-10 sm:pt-18 sm:pb-14 lg:pt-24 lg:pb-18"
     >
       <div className="card-surface relative overflow-hidden px-6 py-8 sm:px-10 sm:py-10 lg:px-12 lg:py-12">
         <div className="pointer-events-none absolute inset-0 bg-gradient-to-tr from-brand-accent/6 via-transparent to-brand-accent/10" />
         <div className="relative flex flex-col gap-8 lg:flex-row lg:items-center">
           <div className="flex-1 space-y-4 sm:space-y-5">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="pill bg-white/90 text-brand-accent">
-                <span className="h-1.5 w-1.5 rounded-full bg-brand-accent" />
-                {hero.badge}
-              </span>
+              {hero.badge ? (
+                <span className="pill bg-white/90 text-brand-accent">
+                  <span className="h-1.5 w-1.5 rounded-full bg-brand-accent" />
+                  {hero.badge}
+                </span>
+              ) : null}
               <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1 text-[0.7rem] font-medium text-emerald-700">
                 <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
                 <span>{hero.availability}</span>
@@ -52,7 +54,7 @@ export function Hero({ hero }: Props) {
             </div>
           </div>
           <div className="flex justify-start lg:justify-end lg:pl-10">
-            <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-3xl border border-white/80 bg-slate-100 shadow-soft sm:h-48 sm:w-48 lg:h-52 lg:w-52">
+            <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-full border border-white/80 bg-slate-100 shadow-soft sm:h-48 sm:w-48 lg:h-52 lg:w-52">
               {imageError ? (
                 <div className="flex h-full w-full items-center justify-center bg-gradient-to-br from-slate-100 to-slate-200">
                   <span className="text-3xl font-semibold tracking-tight text-slate-500">
